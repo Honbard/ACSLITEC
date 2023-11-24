@@ -7,7 +7,7 @@
   } else {
     errorMessage.textContent = 'Invalid username or password';
   }
-}
+
 
 function setUserStatus(online) {
     const userStatus = document.getElementById('user-status');
