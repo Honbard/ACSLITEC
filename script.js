@@ -1,12 +1,3 @@
-function login() {
-  const username = document.getElementById('username').value;
-  const password = document.getElementById('password').value;
-  const errorMessage = document.getElementById('error-message');
-
-  const account = accounts.find(
-    (acc) => acc.username === username && acc.password === password
-  );
-
   if (account) {
     document.querySelector('.login-page').style.display = 'none';
     document.querySelector('.main-page').style.display = 'block';
